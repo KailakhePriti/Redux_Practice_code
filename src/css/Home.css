@@ -1,0 +1,27 @@
+.block{
+    display: flex;
+    margin-left: 40%;
+}
+.input_box{
+    width: 10%;
+    background-color: white;
+    color: black;
+    border: none;
+    height: 30px;
+    box-shadow: 0px 0px 2px 5px black;
+    margin-left:3px;
+}
+.boxes{
+    text-decoration: none;
+    border: 2px solid black;
+    width: 10%;
+    height: 30px;
+}
+.sign{
+    height: 15%;
+    color: black;
+}
+
+.inc_dec{
+    margin-top: 100px;
+}
