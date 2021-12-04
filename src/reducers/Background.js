@@ -1,7 +1,7 @@
 
 const initialColorState={
     backgroundColor: 'whitesmoke',
-    color: 'red'
+    color: 'red',
 };
 const toggleColorMode=(state=initialColorState,action)=>{
     switch(action.type)

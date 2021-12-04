@@ -1,0 +1,39 @@
+.heading{
+    font-weight: 900;
+    color :slateblue;
+}
+.fig,.addItems,.ShowItems{
+margin: 20px;
+margin-left: 40%;
+}
+.add{
+    position: absolute;
+    left: 57%;
+    top: 120px;
+}
+.del{
+    margin-left: 200px;
+    color: red;
+    left: 70%;
+    margin-top: -80px
+}
+.caption{
+    color: white;
+}
+.itemList{
+    border: 2px solid white;
+    padding: 3%;
+    border-radius: 50px;
+    box-shadow: 10px 10px 10px 10px lightseagreen;
+}
+.item_heading{
+    color: white;
+    text-align: left;
+}
+.check_btn{
+    margin: 40px;
+    width: 40%;
+    height: 20%;
+   
+   
+}

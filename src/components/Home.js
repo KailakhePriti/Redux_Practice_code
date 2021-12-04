@@ -7,6 +7,7 @@ export default function Home() {
     const myState=useSelector((state)=> state.toggleChangeNumber)
     const myStyle=useSelector((state)=> state.toggleColorMode)
     const dispatch=useDispatch()
+
     const toggleEnableModes=()=>{
         if((state)=> state.backgroundColor==='whitesmoke')
         {
@@ -28,8 +29,8 @@ export default function Home() {
                 Content here, content here', making it look like readable English. Many desktop 
                 publishing packages and web page editors now use Lorem Ipsum as their default model 
                 text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. 
-                Various versions have evolved over the years,
-                 sometimes by accident, sometimes on purpose (injected humour and the like).
+                Various versions have evolved over the years,sometimes by accident, sometimes on purpose 
+                (injected humour and the like).
                 </p>
                
             </div>
