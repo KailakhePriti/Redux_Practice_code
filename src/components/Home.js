@@ -1,6 +1,6 @@
 import React from 'react'
-import '../css/Home.css'
-import { useSelector,useDispatch } from 'react-redux'
+
+import { useSelector,useDispatch } from 'react-redux';
 import {incNumber,decNumber,darkBg,lightBg} from '../actions/index';
 import {Button} from 'reactstrap'
 export default function Home() {
@@ -18,11 +18,11 @@ export default function Home() {
         }
     }
     return (
-        <div >
-            <div style={myStyle}>
-                <h1 >React Redux</h1>
+        <div>
+             <div >
+                <h1 style={{color: 'red'}}>React Redux</h1>
                 
-                <p style={{textAlign: 'justify'}}>
+                <p style={myStyle}>
                 It is a long established fact that a reader will be distracted by the readable 
                 content of a page when looking at its layout. The point of using Lorem Ipsum is 
                 that it has a more-or-less normal distribution of letters, as opposed to using '
@@ -34,16 +34,7 @@ export default function Home() {
                 </p>
                
             </div>
-            <Button onClick={toggleEnableModes} style={{marginTop: '0px',marginBottom: '50px'}}>Enable Mode</Button>
-                
-            <div className="inc_dec">
-                <h4>Increment - Decrement using React Redux</h4>
-                <div className="block">
-                    <a className="boxes" onClick={()=> dispatch(decNumber())}><span className="sign" >-</span></a>
-                    <input value={myState}  className="input_box"/>
-                    <a className="boxes"  onClick={()=> dispatch(incNumber())}><span className="sign" >+</span></a>
-                </div>
-            </div>
+            
         </div>
     )
 }

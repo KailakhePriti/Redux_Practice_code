@@ -18,11 +18,13 @@ const toggleTodoList=(state=initialState,action)=>{
                 }]
             }
         case "DEL":
-            const updatedList=state.data_list.filter((elem)=> elem.id !== action.id)
-            return{
-                ...state,
-                data_list: updatedList
-            }
+                const updatedList=state.data_list.filter((elem)=> elem.id !== action.id);
+                return{
+                        ...state,
+                        data_list: updatedList
+                }
+           
+               
         case "REMOVE":
             return{
                 ...state,

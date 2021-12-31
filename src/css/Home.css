@@ -19,9 +19,13 @@
 }
 .sign{
     height: 15%;
-    color: black;
+    color: white;
 }
-
 .inc_dec{
-    margin-top: 100px;
+    margin-top: 30px;
+    background-color: #1D0C5B;
+    width: 50%;
+    height: 200px;
+    margin-left: 30%;
+    padding: 50px;
 }
